@@ -1,0 +1,4 @@
+a)
+ifconfig en0 | grep -E 'broadcast' | awk "{print $ 6}"
+
+b)
