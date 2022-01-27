@@ -2,3 +2,5 @@ a)
 ifconfig en0 | grep -E 'broadcast' | awk "{print $ 6}"
 
 b)
+
+ping $(ifconfig en0 | grep -E 'broadcast' | awk "{print $ 6}") -c 1 && arp -a | grep -E '.hive.fi' | awk "{print $ 2}" | sed 's/(//' | sed 's/)//'
