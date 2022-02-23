@@ -1,0 +1,8 @@
+
+graphic:
+
+power off the machine -> launch vm -> login
+
+ssh:
+
+ssh -p port username@ip
