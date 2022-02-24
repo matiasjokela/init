@@ -1,1 +1,1 @@
-ssh username@_ip_
+ssh username@ip -p port

@@ -1,1 +1,1 @@
-cut -d: -f1,3,6 /etc/passwd
+cut -d: -f1,3,7 /etc/passwd

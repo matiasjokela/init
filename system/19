@@ -1,1 +1,1 @@
-sudo systemctl list-unit-files --type=service
+sudo systemctl list-unit-files --type=service --state=enabled
