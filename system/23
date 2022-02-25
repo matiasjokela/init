@@ -6,3 +6,5 @@ power off the machine -> launch vm -> login
 ssh:
 
 ssh -p port username@ip
+
+# ssh -p 2222 mjokela@127.0.0.1

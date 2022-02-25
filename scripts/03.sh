@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Let's play rock, paper scissors!"
 
 echo "Pick your weapon: (1 for rock, 2 for paper, 3 for scissors)"
